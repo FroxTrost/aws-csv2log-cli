@@ -1,0 +1,12 @@
+timestamp,message
+1657254271384,"# Time: 2022-07-08T04:24:31.384291Z
+# User@Host: admin[admin] @  [101.0.33.216]  Id: 333445
+# Query_time: 0.000410  Lock_time: 0.000128 Rows_sent: 1  Rows_examined: 443
+use my_slave_db;
+SET timestamp=1657254271;
+SELECT * from users LIMIT 1;"
+1657254271391,"# Time: 2022-07-08T04:24:31.391490Z
+# User@Host: admin[admin] @  [101.0.33.216]  Id: 347300
+# Query_time: 0.006267  Lock_time: 0.000213 Rows_sent: 1  Rows_examined: 7933
+SET timestamp=1657254271;
+SELECT * From pizza;"
