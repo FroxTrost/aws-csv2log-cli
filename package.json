@@ -34,7 +34,7 @@
   },
   "type": "module",
   "bin": {
-    "csv2log": "./cli.js"
+    "aws-csv2log-cli": "./cli.js"
   },
   "devDependencies": {
     "ava": "^4.3.0",

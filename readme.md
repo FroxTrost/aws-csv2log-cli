@@ -15,7 +15,7 @@ npm install --global awscsv2log-cli
 ```
 $ csv2log --help
 
-	Usage: csv2log --input [input file] --output [output file]
+	Usage: aws-csv2log-cli --input=[input file] --output=[output file]
 
         Options:
           --input   -i  Input .csv file       [string] [required]
@@ -24,6 +24,6 @@ $ csv2log --help
           --help        Show help             [boolean]
 
         Examples:
-            awscsv2log-cli --input=foo.csv                   => stdout
-            awscsv2log-cli --input=foo.csv --output=bar.log  => Write output to a file
+            aws-csv2log-cli --input=foo.csv                   => stdout
+            aws-csv2log-cli --input=foo.csv --output=bar.log  => Write output to a file
 ```
