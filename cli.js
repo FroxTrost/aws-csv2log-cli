@@ -20,7 +20,7 @@ const logError = (msg) => {
 
 const cli = meow(
   `
-        Usage: csv-to-log --input [input file] --output [output file]
+        Usage: awscsv2log-cli --input [input file] --output [output file]
 
         Options:
           --input   -i  Input .csv file       [string] [required]
@@ -29,8 +29,8 @@ const cli = meow(
           --help        Show help             [boolean]
 
         Examples:
-          csv-to-log -i foo.csv             => stdout
-          csv-to-log -i foo.csv -o bar.log  => Write output to a file
+          awscsv2log-cli --input=foo.csv                   => stdout
+          awscsv2log-cli --input=foo.csv --output=bar.log  => Write output to a file
 
   `,
   {

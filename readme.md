@@ -24,6 +24,6 @@ $ csv2log --help
           --help        Show help             [boolean]
 
         Examples:
-          csv-to-log -i foo.csv             => stdout
-          csv-to-log -i foo.csv -o bar.log  => Write output to a file
+            awscsv2log-cli --input=foo.csv                   => stdout
+            awscsv2log-cli --input=foo.csv --output=bar.log  => Write output to a file
 ```
