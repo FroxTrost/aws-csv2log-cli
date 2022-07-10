@@ -7,6 +7,14 @@
     "name": "FroxTrost",
     "email": "rajatkumarchahar@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FroxTrost/aws-csv2log-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FroxTrost/aws-csv2log-cli/issues"
+  },
+  "homepage": "https://github.com/FroxTrost/aws-csv2log-cli#readme",
   "license": "ISC",
   "scripts": {
     "test": "ava"
