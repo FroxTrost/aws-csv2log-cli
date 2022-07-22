@@ -7,13 +7,14 @@ Works on macOS, Linux, and Windows.
 ## Install
 
 ```sh
-npm install --global awscsv2log-cli
+clone the repo
+npm install --global .
 ```
 
 ## Usage
 
 ```
-$ csv2log --help
+$ aws-csv2log-cli --help
 
 	Usage: aws-csv2log-cli --input=[input file] --output=[output file]
 
